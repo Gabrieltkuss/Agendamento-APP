@@ -1,9 +1,9 @@
 const AWS = require('aws-sdk');
 
 module.exports = {
-  IAM_USER_KEY: 'AKIA3FLD6PP72FTESVIA',
-  IAM_USER_SECRET: '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',
-  BUCKET_NAME: 'salao-gtk-dev',
+  IAM_USER_KEY: '',
+  IAM_USER_SECRET: '',
+  BUCKET_NAME: '',
   AWS_REGION: 'us-east-2',
   
   uploadToS3: function (file, filename,acl = 'public-read') { //'
